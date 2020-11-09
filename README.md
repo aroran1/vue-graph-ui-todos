@@ -24,6 +24,15 @@ yarn build
 yarn lint
 ```
 
+### To run Vue Graphical UI
+
+Go to the Development folder in you terminal and run
+You can run and build for production through Vue UI
+
+```
+vue ui
+```
+
 ### Customize configuration
 
 See [Configuration Reference](https://cli.vuejs.org/config/).
