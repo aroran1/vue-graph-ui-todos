@@ -8,7 +8,7 @@
 </template>
 
 <script>
-  import { v4 as uuidv4 } from 'uuid';
+  // import { v4 as uuidv4 } from 'uuid';
   export default {
     name: 'AddTodo',
     data() {
@@ -20,7 +20,7 @@
       addTodo(e) {
         e.preventDefault();
         const newTodo = {
-          id: uuidv4,
+          // id: uuidv4, only for static use not to be used with axios
           title: this.title,
           completed: false
         };
