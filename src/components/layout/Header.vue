@@ -1,9 +1,11 @@
 <template>
   <header class="header">
-    <h1>TodoList</h1>
+    <h1>TodoList / Jokes</h1>
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/jokes">Jokes</router-link> |
+      <router-link to="/joketoday">Joke Today</router-link>
     </div>
   </header>
 </template>

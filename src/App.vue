@@ -11,6 +11,9 @@ export default {
   name: 'App',
   components: {
     Header
+  },
+  mounted() {
+    this.$store.dispatch("setCurrentJoke")
   }
 }
 </script>

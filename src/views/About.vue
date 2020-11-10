@@ -7,9 +7,18 @@
   </div>
 </template>
 
+<script>
+export default {
+  name: 'About'
+}
+</script>
+
 <style scoped>
   h1, h2, p {
     margin: 10px 0 5px;
     padding: 0px 20px 10px;
+  }
+  .about {
+    padding: 10px 20px;
   }
 </style>
