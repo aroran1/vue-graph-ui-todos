@@ -48,7 +48,8 @@ import { createStore } from 'vuex'
 
   const getters = {
     // can be accessed anywhere in the app to get data
-    getCurrentJoke: state => state.currentJoke
+    getCurrentJoke: state => state.currentJoke,
+    getAllJokes: state => state.allJokes
   }
 
   const mutations = {
